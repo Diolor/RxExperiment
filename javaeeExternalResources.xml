@@ -1,0 +1,6 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://www.puppycrawl.com/dtds/configuration_1_2.dtd" location="$USER_HOME$/Library/Caches/AndroidStudioPreview2.0/extResources/1516d131_configuration_1_2.dtd" />
+    <resource url="http://www.puppycrawl.com/dtds/suppressions_1_1.dtd" location="$USER_HOME$/Library/Caches/AndroidStudioPreview2.0/extResources/1ea4f47a_suppressions_1_1.dtd" />
+  </component>
+</application>

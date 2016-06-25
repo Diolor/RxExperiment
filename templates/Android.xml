@@ -1,0 +1,9 @@
+<templateSet group="Android">
+  <template name="test" value="@org.junit.Test&#10;public void test$test$(){&#10;&#9;&#10;}" description="create a new unit test block" toReformat="false" toShortenFQNames="true">
+    <variable name="test" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

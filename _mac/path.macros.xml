@@ -1,0 +1,7 @@
+<application>
+  <component name="PathMacrosImpl">
+    <macro name="ANDROID_SDK" value="~/Desktop/SDK" />
+    <macro name="MAVEN_REPOSITORY" value="/Users/d.lorentzos/.m2/repository" />
+    <macro name="KOTLIN_BUNDLED" value="/Users/d.lorentzos/Library/Application Support/AndroidStudioPreview2.2/Kotlin/kotlinc" />
+  </component>
+</application>
