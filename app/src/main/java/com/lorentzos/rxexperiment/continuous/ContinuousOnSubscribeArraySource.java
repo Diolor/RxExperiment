@@ -1,4 +1,4 @@
-package com.lorentzos.rxexperiment;
+package com.lorentzos.rxexperiment.continuous;
 
 /**
  *
@@ -20,9 +20,6 @@ public class ContinuousOnSubscribeArraySource<T> implements Continuous.OnSubscri
 
 		for (int i = 0; i < n && !s.isUnsubscribed(); i++) {
 			T value = a[i];
-			if (value == null) {
-				throw new NullPointerException("The " + i + "th element is null");
-			}
 			s.onNext(value);
 		}
 	}

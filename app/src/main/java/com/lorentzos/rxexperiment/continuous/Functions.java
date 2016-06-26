@@ -1,4 +1,4 @@
-package com.lorentzos.rxexperiment;
+package com.lorentzos.rxexperiment.continuous;
 
 import rx.functions.Func1;
 

@@ -1,4 +1,4 @@
-package com.lorentzos.rxexperiment;
+package com.lorentzos.rxexperiment.continuous;
 
 import java.util.ArrayList;
 import java.util.List;

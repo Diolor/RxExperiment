@@ -1,4 +1,6 @@
-package com.lorentzos.rxexperiment;
+package com.lorentzos.rxexperiment.continuous;
+
+import rx.Subscription;
 
 /**
  *
@@ -14,9 +16,10 @@ public class ContinuousOnSubscribeLift<Upstream, Downstream> implements Continuo
 	}
 
 	@Override
-	public void call(ContinuousSubscriber<? super Upstream> continuousSubscriber) {
-		ContinuousSubscriber<? super Downstream> subscriber = operator.call(continuousSubscriber);
+	public void call(ContinuousSubscriber<? super Upstream> child) {
+		ContinuousSubscriber<? super Downstream> subscriber = operator.call(child);
 
-		source.subscribe(subscriber);
+		Subscription subscription = source.subscribe(subscriber);
+		child.add(subscription);
 	}
 }
